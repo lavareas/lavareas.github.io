@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+            /* Default styles for all screen sizes */
+            body {
+                font-size: 16px;
+            }
+        
+            /* Media query for screens with width less than 600px */
+            @media (max-width: 600px) {
+                body {
+                    font-size: 14px;
+                }
+            }
+        
+            /* Media query for screens with width between 600px and 1200px */
+            @media (min-width: 600px) and (max-width: 1200px) {
+                body {
+                    font-size: 18px;
+                }
+            }
+        
+            /* Media query for screens with width greater than 1200px */
+            @media (min-width: 1200px) {
+                body {
+                    font-size: 20px;
+                }
+            }
+        </style>
+        <style>
+            body {
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 20px;
+            }
+
+            .container {
+            border: 2px solid #333;
+            padding: 20px;
+            }
+            h1 {
+              color: #333;
+              text-align: center;
+            }
+            h2 {
+                color: #666;
+                text-align: center;
+                font-size: 18px;
+                margin-top: 10px;
+            }
+            p {
+              color: #666;
+              text-align: center;
+            }
+          </style>
+        <title>Testing AI Chatbot</title>
+        </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to the Testing AI Chatbot Page</h1>
+            <h2>Built by Chris Wallander</h2>
+            <hr>
+            <p>In the bottom right hand corner is a simple chatbot built with Botpress and OpenAI. This bot was created as a passion project, and may contain issues and/or errors.</p>
+            <p>Remember, all information created by AI should be carefully reviewed and verified.</p>
+            <p>Please feel free to experiment with it and ask any questions you may have on <a href="https://www.linkedin.com/in/chris-wallander-b88678162/">Linkedin</a>.</p>
+        </div>
+
+
+        <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+        <script src="https://mediafiles.botpress.cloud/c2d9cb68-073b-49f4-b9d4-07c7ef0fe1e6/webchat/config.js" defer></script>
+    </body>
+</html>
