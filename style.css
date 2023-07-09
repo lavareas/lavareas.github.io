@@ -41,11 +41,6 @@
         width: 128px;
         height: 128px;
     }
-
-    .bp-widget-widget {
-        width: 128px!important;
-        height: 128px!important;
-    }
 }
 
 @media (min-width: 600px) {
