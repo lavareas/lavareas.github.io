@@ -67,6 +67,19 @@
 
 
         <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
-        <script src="https://mediafiles.botpress.cloud/c2d9cb68-073b-49f4-b9d4-07c7ef0fe1e6/webchat/config.js" defer></script>
+        <script>
+        window.botpressWebChat.init({
+            "composerPlaceholder": "Chat with The AI Testing Assistant",
+            "botConversationDescription": "Designed for limited Summarization and Quality Assurance",
+            "botId": "c2d9cb68-073b-49f4-b9d4-07c7ef0fe1e6",
+            "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+            "messagingUrl": "https://messaging.botpress.cloud",
+            "clientId": "c2d9cb68-073b-49f4-b9d4-07c7ef0fe1e6",
+            "botName": "The AI Testing Assistant",
+            "termsConditions": "Created by Chris Wallander as a fun experiment.  Use at your own risk.  AI Tools can provide false information, as such, all information should be carefully reviewed.  Chris assumes no responsibility for the robot.",
+            "stylesheet": "https://lavareas.github.io/style.css",
+            "useSessionStorage": true
+        });
+        </script>
     </body>
 </html>
