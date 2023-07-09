@@ -47,6 +47,14 @@
         height: 128px!important;
     }
 }
+@media (min-width: 600px) {
+    .bpw-floating-button {
+        width: 76px;
+        height: 76px;
+    }
+
+}
+
 
 svg {
     width: 50%!important;
