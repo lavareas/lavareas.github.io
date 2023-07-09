@@ -42,7 +42,7 @@
         height: 128px;
     }
 
-    #bp-web-widget {
+    .bp-widget-widget {
         width: 128px!important;
         height: 128px!important;
     }
