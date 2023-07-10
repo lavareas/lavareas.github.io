@@ -41,6 +41,11 @@
         width: 128px;
         height: 128px;
     }
+
+    html body #bp-web-widget-container iframe#bp-web-widget.bp-widget-widget.bpw-iframe {
+        width: 128px!important;
+        height: 128px!important;
+    }
 }
 
 @media (min-width: 600px) {
